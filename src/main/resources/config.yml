@@ -2,8 +2,6 @@ mysql:
   uri: localhost/database
   user: user
   password: password
-  
-sub-groups: false
 
 player-identifier:
   field: minecraft_username
@@ -17,5 +15,6 @@ member-feature:
   enable: false
   require-valid-email: true
   default-group-name: default
-  
+
+sync-task-delay: 10 # Time is in minutes 10 is 10 minutes.
 debug: false # Only enable if needed.
