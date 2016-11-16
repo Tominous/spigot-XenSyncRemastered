@@ -17,3 +17,5 @@ member-feature:
   enable: false
   require-valid-email: true
   default-group-name: default
+  
+debug: false # Only enable if needed.
