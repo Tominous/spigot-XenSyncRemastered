@@ -1,0 +1,19 @@
+mysql:
+  uri: localhost/database
+  user: user
+  password: password
+  
+sub-groups: false
+
+player-identifier:
+  field: minecraft_username
+  name-system: true
+  use-profile-fields: true
+  database-table: xf_user_field_value
+  table-xenid: user_id
+  table-playerid: minecraft_username
+
+member-feature:
+  enable: false
+  require-valid-email: true
+  default-group-name: default
