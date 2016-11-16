@@ -3,6 +3,7 @@ XenSync Remastered is a Spigot plugin to sync a rank with XenForo.
 
 ## Installation
 **This plugin requires [Vault](https://dev.bukkit.org/bukkit-plugins/vault/) to be installed on your server.**
+
 Just drop the jar into your `plugins` folder, reload, edit configuration, reload, go ham.
 
 ## Configuration
